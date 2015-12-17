@@ -8,40 +8,46 @@
 <body>
 	<div id="entete">
 		<header>
-			<div>
-				<img class="logo" src="image/logo_deezer.jpg" alt="logo_deezer">
-			</div>
-			<div id="rechercher">
+			<div class="image_fix">
+				<div>
+					<img class="logo" src="image/logo_deezer.jpg" alt="logo_deezer">
+				</div>
+				<div id="rechercher">
 
-					<form method="post" action="traitement.php">
-						    <p>
-						        <input type="text" name="rechercher" id="rechercher" placeholder="    Rechercher" size="30" maxlength="10" />
-						        <!--<i class="icon-search"></i>-->
-						    </p>
-					</form>
-					
+						<form method="post" action="traitement.php">
+							    <p>
+							        <input type="text" name="rechercher" id="rechercher" placeholder="    Rechercher" size="30" maxlength="10" />
+							        <!--<i class="icon-search"></i>-->
+							    </p>
+						</form>
+						
+				</div>
 			</div>
-			<nav class="List1">
-				<ul>
-					<li>ACCUEIL</li>
-					<li>A ECOUTER</li>
-					<li>NOUVEAUTES</li>
-					<li>TOP PLAYLISTS</li>
-					<li>MIX</li>
-					<li>INFOS & DIVERTISSEMENT</li>
-				</ul>
-			</nav>
-			<nav class="List2">
-				<ul>
-					<li>Ma musique</li>
-					<li><div id="bouton">+S'ABONNER</div></li>
-					<li>Coups de coeur</li>
-					<li>Playlists</li>
-					<li>Albums</li>
-					<li>Podcasts</li>
-					<li>Applications</li>
-				</ul>
-			</nav>
+
+			<div id="menu">
+				<nav class="List1">
+					<ul>
+						<li><a href="#">ACCUEIL</a></li></br>
+						<li><a href="#">A ECOUTER</a></li></br>
+						<li><a href="#">NOUVEAUTES</a></li></br>
+						<li><a href="#">TOP PLAYLISTS</a></li></br>
+						<li><a href="#">MIX</a></li></br>
+						<li><a href="#">INFOS & DIVERTISSEMENT</a></li></br>
+					</ul>
+				</nav>
+				<nav class="List2">
+					<ul>
+						<li><a href="#">Ma musique</a></li></br>
+						<li><div id="bouton">+S'ABONNER</div></li></br>
+						<li><a href="#">Coups de coeur</a></li></br>
+						<li><a href="#">Playlists</a></li></br>
+						<li><a href="#">Albums</a></li></br>
+						<li><a href="#">Podcasts</a></li></br>
+						<li><a href="#">Applications</a></li></br>
+					</ul>
+				</nav>
+			</div>
+
 			<div id="audio">
 				<img src="image/pimpC.jpg" alt="pimpC">
 				<a href="#">3 Way Freak (feat...</a>

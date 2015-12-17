@@ -36,20 +36,21 @@ section
 	width: 117px;
 	height: 24px;
 	padding: 20px;
-	margin: auto;
+	margin-left: 35px;
 }
 
 #rechercher
 {
 	border-radius: 5px;
-	height: 40px;
+	height: 25px;
+	margin-bottom: 20px;
 	
 }
 
 form
 {
-	margin: auto;
-	height: 20px;
+	margin-left: 35px;
+
 }
 
 
@@ -58,14 +59,60 @@ nav ul
 
 	list-style-type: none; 
 	color: white;
-	text-align: left;
+	margin: auto;
+	font-family: Open Sans, Arial;
+
 
 }
 
 #audio img
 {
 
-	width: 300px;
-	height: 300px;
+	width: 253px;
+	height: 220px;
 	margin: auto;
+}
+
+.List1 ul li a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+.List1 ul li a:hover
+{
+	color: white;
+}
+
+
+.List2 ul li a
+{
+	color: grey;
+	text-decoration: none;
+}
+
+
+.List2 ul li a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+.image_fix
+{
+	position: fixed;
+	
+}
+
+#menu
+{	
+	position: absolute;
+	top: 130px;
+}
+
+#audio
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
 }
