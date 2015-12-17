@@ -10,6 +10,7 @@ body
 {
 	display: inline-block;
 	vertical-align: top;
+
 }
 
 #entete
@@ -32,8 +33,10 @@ section
 .logo
 {
 
-	width: 183px;
-	height: 84px;
+	width: 117px;
+	height: 24px;
+	padding: 20px;
+	margin: auto;
 }
 
 #rechercher
@@ -45,15 +48,24 @@ section
 
 form
 {
-	text-align: left;
+	margin: auto;
 	height: 20px;
 }
+
 
 nav ul 
 {
 
 	list-style-type: none; 
 	color: white;
-	margin-left: 0px;
+	text-align: left;
 
+}
+
+#audio img
+{
+
+	width: 300px;
+	height: 300px;
+	margin: auto;
 }
