@@ -1,0 +1,59 @@
+body
+{
+	margin: 0px;
+}
+
+
+
+
+#entete section aside
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#entete
+{
+	width: 20%;
+	height: 100%;
+	background-color: #23232C;
+}
+
+aside 
+{
+	width: 20%;
+}
+
+section 
+{
+	width: 60%;
+}
+
+.logo
+{
+
+	width: 183px;
+	height: 84px;
+}
+
+#rechercher
+{
+	border-radius: 5px;
+	height: 40px;
+	
+}
+
+form
+{
+	text-align: left;
+	height: 20px;
+}
+
+nav ul 
+{
+
+	list-style-type: none; 
+	color: white;
+	margin-left: 0px;
+
+}
