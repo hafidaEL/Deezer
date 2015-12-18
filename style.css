@@ -17,9 +17,7 @@ body
 {
 	width: 20%;
 	height: 100%;
-	/*background-color: #23232C;*/
-	background-color: #181818;
-	
+	background-color: #23232C;
 }
 
 aside 
@@ -45,13 +43,7 @@ section
 {
 	border-radius: 5px;
 	height: 25px;
-	margin-bottom: 25px;
-	margin-left: -10px;
-	margin-right: 10px;
-
-	
-
-
+	margin-bottom: 20px;
 	
 }
 
@@ -71,13 +63,12 @@ nav ul
 	font-family: Open Sans, Arial;
 
 
-
 }
 
 #audio img
 {
 
-	width: 226px;
+	width: 253px;
 	height: 220px;
 	margin: auto;
 }
@@ -86,7 +77,6 @@ nav ul
 {
 	color: grey;
 	text-decoration: none;
-	
 }
 
 .List1 ul li a:hover
@@ -99,9 +89,6 @@ nav ul
 {
 	color: grey;
 	text-decoration: none;
-	overflow: scroll;
-	
-	
 }
 
 
@@ -110,33 +97,27 @@ nav ul
 	color: white;
 	text-decoration: underline;
 
+}
 
-	
+li:hover
+{
+	background-color: black;
 }
 
 .image_fix
 {
 	position: fixed;
-	background-color: #181818;
-	/*background-color: #23232C;*/
-
-
-
 	
 }
 
 #menu
 {	
-	position: absolute;
-	top: 132px;
-	background-color: #181818;
-	/*background-color: #23232C;*/
-	width: 226px;
-	height: 200px;
-	/* valeur initiale: height: 316px;*/
+	position: relative;
+	top: 130px;
 	overflow: scroll;
-	padding-bottom: 120px;
-
+	max-height: 300px;
+	background-color: #23232C;
+	font-size: 13px;
 }
 
 #audio
@@ -145,3 +126,4 @@ nav ul
 	left: 0;
 	bottom: 0;
 }
+
