@@ -95,18 +95,44 @@ nav ul
 .List2 ul li a:hover
 {
 	color: white;
-	text-decoration: underline;
 
 }
 
 li:hover
+
 {
 	background-color: black;
 }
 
-.image_fix
+#bouton
+{
+	border: 2px solid black; 
+	border-radius: 5px;
+	background-color: #0b66cd;
+	width: 117px;
+	height: 25px;
+	text-align: center;
+	margin-left: 35px;
+	padding-top: 5px;
+	position: absolute;
+	bottom: 35px;
+
+
+}
+
+.image_fix1
 {
 	position: fixed;
+	left: 0;
+	top: 0;
+	
+}
+
+.image_fix2
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	
 }
 
@@ -114,16 +140,15 @@ li:hover
 {	
 	position: relative;
 	top: 130px;
-	overflow: scroll;
+	overflow: auto;
 	max-height: 300px;
 	background-color: #23232C;
 	font-size: 13px;
 }
 
-#audio
+/*.lecture_audio
 {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-}
+	position: absolute;
+	bottom: 2px;
+}*/
 
